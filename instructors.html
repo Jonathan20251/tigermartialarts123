@@ -1,0 +1,632 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Tiger Martial Arts</title>
+
+        <!-- CSS FILES -->                
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,700;1,200&family=Unbounded:wght@400;700&display=swap" rel="stylesheet">
+        
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+        <link href="css/tooplate-kool-form-pack.css" rel="stylesheet">
+        
+<!--
+
+Tooplate 2136 Kool Form Pack
+
+https://www.tooplate.com/view/2136-kool-form-pack
+
+Bootstrap 5 Form Pack Template
+
+-->
+
+<style>
+
+
+
+
+.footer-dark {
+  padding:50px 0;
+  color:#f0f9ff;
+  background-color:#2d3033;
+}
+
+.footer-dark h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+}
+
+.footer-dark ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+}
+
+.footer-dark ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.6;
+}
+
+.footer-dark ul a:hover {
+  opacity:0.8;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item:not(.social) {
+    text-align:center;
+    padding-bottom:20px;
+  }
+}
+
+.footer-dark .item.text {
+  margin-bottom:36px;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item.text {
+    margin-bottom:0;
+  }
+}
+
+.footer-dark .item.text p {
+  opacity:0.6;
+  margin-bottom:0;
+}
+
+.footer-dark .item.social {
+  text-align:center;
+}
+
+@media (max-width:991px) {
+  .footer-dark .item.social {
+    text-align:center;
+    margin-top:20px;
+  }
+}
+
+.footer-dark .item.social > a {
+  font-size:20px;
+  width:36px;
+  height:36px;
+  line-height:36px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  box-shadow:0 0 0 1px rgba(35, 1, 1, 0.4);
+  margin:0 8px;
+  color:#fff;
+  opacity:0.75;
+}
+
+.footer-dark .item.social > a:hover {
+  opacity:0.9;
+}
+
+.footer-dark .copyright {
+  text-align:center;
+  padding-top:24px;
+  opacity:0.3;
+  font-size:13px;
+  margin-bottom:0;
+}
+:root {
+  --purple: #f0150d;
+  --aqua: #b4fee7;
+  --violet: #e37221;
+  --fuchsia: #fd49a000;
+  --white: #efefef;
+  --black: #222;
+  --trueBlack: #000;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--black);
+}
+
+.main2 {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.cards {
+  display: grid;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.cards_item {
+  display: flex;
+}
+
+.card_image {
+  display: flex;
+  height: 250px;
+  box-shadow: 0 50px 100px 0 var(--violet);
+}
+
+.card_image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  background-color: var(--purple);
+  border-radius: 5px 25px 5px 50px;
+  transition: transform 0.1s linear, box-shadow 0.2s;
+}
+
+.card_text:focus,
+.card:focus {
+  outline: 2px dashed var(--aqua);
+}
+
+.card:focus,
+.card:hover {
+  transform: scale(1.01);
+  box-shadow: 0 10px 5px -5px rgba(0, 0, 0, 0.2);
+}
+
+.card_content {
+  padding: 0.5rem 1rem 1rem;
+  color: var(--white);
+}
+
+.card_title {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 90%;
+  height: auto;
+  color: var(--black);
+  padding: 0.5rem;
+  border-radius: 5px 0 0 5px;
+  transform: rotate(-3.3deg); 
+  transform-origin: left top;
+  font-family: Georgia, Times, serif;
+  font-weight: 600;
+  font-size: 1.325rem;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  background-color: rgba(253, 73, 160, 0.75);
+  animation: 0s 0s fly-in 0 reverse both;
+}
+
+@media (min-width: 535px) {
+  .card_title {
+    animation: 0.5s 0.25s fly-out 1 both;
+  }
+}
+
+
+
+.card_text {
+  font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica,
+    Helvetica Neue, Arial, sans-serif;
+  line-height: 1.5;
+  text-size-adjust: 0.2px;
+  padding: 0 1rem;
+}
+
+.card_text p:first-of-type:first-letter {
+  font-size: 1.8em;
+  font-family: Georgia, Times, serif;
+  margin-right: 0.05em;
+}
+
+@media (min-width: 480px) {
+  .card_text {
+    overflow: auto;
+    max-height: 20rem;
+    scrollbar-width: thin;
+    scrollbar-color: var(--aqua) var(--violet);
+  }
+
+  .card_text::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  .card_text::-webkit-scrollbar-track {
+    background: var(--violet);
+  }
+
+  .card_text::-webkit-scrollbar-thumb {
+    background-color: var(--aqua);
+  }
+}
+
+.card_text strong {
+  color: var(--aqua);
+}
+
+.upcharge {
+  position: relative;
+  font-weight: 600;
+  background-color: var(--violet);
+  padding: 0.5rem 0.75rem;
+  color: var(--trueBlack);
+  border-radius: 0 10px;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.upcharge::after,
+.upcharge::before {
+  content: "+";
+  display: block;
+  line-height: 0;
+  font-size: 3rem;
+  position: absolute;
+  color: var(--purple);
+  z-index: -1;
+  opacity: 0.3;
+}
+
+.upcharge::before {
+  left: 0;
+  top: 0.5rem;
+}
+
+.upcharge::after {
+  right: 0;
+  bottom: 1.25rem;
+}
+
+.note {
+  display: block;
+  text-align: center;
+  padding: 0.5rem;
+  font-weight: 900;
+  background-image: linear-gradient(
+    -45deg,
+    transparent 10%,
+    var(--aqua) 10.5%,
+    var(--aqua) 90%,
+    transparent 90.5%
+  );
+  color: var(--black);
+  font-size: 1.3em;
+  font-style: italic;
+  margin-top: 1rem;
+}
+
+@keyframes fly-in {
+  0% {
+    top: 0;
+    right: 0;
+    font-size: 1.325rem;
+  }
+
+  25% {
+    top: 0;
+    right: -200%;
+    font-size: 1.325rem;
+  }
+
+  26% {
+    font-size: 2rem;
+  }
+
+  100% {
+    top: 2rem;
+    right: 0;
+    font-size: 2rem;
+  }
+}
+
+@keyframes fly-out {
+  0% {
+    top: 2rem;
+    right: 0;
+    font-size: 2rem;
+  }
+
+  50% {
+    top: 0;
+    right: -200%;
+    font-size: 1.325rem;
+  }
+
+  100% {
+    top: 0;
+    right: 0;
+    font-size: 1.325rem;
+  }
+}
+
+
+</style>
+    </head>
+    
+    <body>
+
+        <main>
+            <style>
+                p1{
+                    font-family: Georgia, 'Times New Roman', Times, serif;
+                    color:rgb(54, 139, 8)
+                }
+            
+
+            </style>
+
+            <header class="site-header">
+                <div class="container">
+                    <div class="row justify-content-between">
+
+                        <div class="col-lg-12 col-12 d-flex align-items-center">
+                            <a class="site-header-text d-flex justify-content-center align-items-center me-auto" href="index.html">
+                                <i class="bi-box"></i>
+
+                                <span>
+                                    Tiger Martial Arts
+                                </span>
+                            </a>
+
+                            <ul class="social-icon d-flex justify-content-center align-items-center mx-auto">
+                                <span class="text-white me-4 d-none d-lg-block">Stay connected</span>
+
+                                <li class="social-icon-item">
+                                    <a href="#" class="social-icon-link bi-instagram"></a>
+                                </li>
+
+                                <li class="social-icon-item">
+                                    <a href="#" class="social-icon-link bi-twitter"></a>
+                                </li>
+
+                                <li class="social-icon-item">
+                                    <a href="#" class="social-icon-link bi-whatsapp"></a>
+                                </li>
+                            </ul>
+
+                            <div>
+                                <a href="#" class="custom-btn custom-border-btn btn" data-bs-toggle="modal" data-bs-target="#subscribeModal">Notify me
+                                    <i class="bi-arrow-right ms-2"></i>
+                                </a>
+                            </div>
+
+                            <a class="bi-list offcanvas-icon" data-bs-toggle="offcanvas" href="#offcanvasMenu" role="button" aria-controls="offcanvasMenu"></a>
+
+                        </div>
+
+                    </div>
+                </div>
+            </header>
+
+
+            <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">                
+                <div class="offcanvas-header">                    
+                    <button type="button" class="btn-close ms-auto" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                
+                <div class="offcanvas-body d-flex flex-column justify-content-center align-items-center">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="login.html">Login Form</a>
+                            </li>
+
+                            <li>
+                                <a href="register.html">class</a>
+                            </li>
+
+                            <li>
+                                <a href="instructor.html">instructors</a>
+                            </li>
+
+                            
+
+                            <li>
+                                <a href="contact.html">Contact Form</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+
+            <!-- Modal -->
+            <div class="modal fade" id="subscribeModal" tabindex="-1" aria-labelledby="subscribeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+
+                        <div class="modal-body">
+                            <form action="#" method="get" class="custom-form mt-lg-4 mt-2" role="form">
+                                <h2 class="modal-title" id="subscribeModalLabel">Stay up to date</h2>
+
+                                <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="your@email.com" required="">
+
+                                <button type="submit" class="form-control">Notify</button>
+                            </form>
+                        </div>
+
+                        <div class="modal-footer justify-content-center">
+                            <p>By signing up, you agree to our Privacy Notice</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <section class="hero-section d-flex justify-content-center align-items-center" id="section_1">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-6 col-12 mx-auto">
+                            <small>our website is under construction. 
+                            <a rel="nofollow" target="_blank" href="https://www.pexels.com/video/digital-projection-of-the-earth-mass-in-blue-lights-3129957/">Earth video by Pexels</a></small>
+                            <!-- please set the date time in the init.js file -->
+                            
+                          <h1 class="text-white mt-2 mb-4 pb-2">
+                                Instructors
+                            </h1>
+                            <p
+                                style = "font-family: Georgia ; color: rgb(144, 204, 228) ; text-align:justify";
+                                >Welcome to Karate Pro Academy, an official branch of the prestigious Japan Karate Association (JKA)in Tokyo-Japan, proudly approved by the UAE Karate Federation & General Authority of Youth And Sports. At Karate Pro Academy, we specialize in JKA Shotokan Karate Training, ensuring a high standard of martial arts education under the esteemed guidance of the Japan Karate Association. 
+                            </p> 
+                            <style>
+                               body{font-family: "Georgia";} 
+                            </style>
+                            
+                            
+
+                        
+                
+                
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-wrap">
+                    <video autoplay="" loop="" muted="" class="custom-video" poster="">
+                        <source src="videos/video.mp4" type="video/mp4">
+
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </section>
+        </main>
+
+
+
+
+
+
+        <div class="main2">
+  <ul class="cards">
+    <li class="cards_item">
+      <div class="card" tabindex="0">
+        <div class="card_image"><img src= "images\front-view-male-martial-arts-instructor-practice-hall-with-wooden-stick.jpg"></div> 
+        <div class="card_content">
+          <h2 class="card_title"> Morris Davis </h2>
+          <div class="card_text">
+            <p>He is a accredited muay thai coach with a 3rd ranked Dan blackbelt in karate.</p>
+            <p>.</strong></p>
+            <p class=""> </p>
+          </div>
+        </div>
+      </div>
+    </li>
+
+    <li class="cards_item">
+      <div class="card" tabindex="0">
+        <div class="card_image"><img src="images\karate-player-performing-karate-stance.jpg"></div>
+        <div class="card_content">
+          <h2 class="card_title">Mauricio Gomez</h2>
+          <div class="card_text">
+            <p>He coaches martial arts while holding a 4th rank in Dan blackbelt judo, 3rd Dan blackbelt jiu-jitsu, 1st Dan blackbelt karate and accredited muay thai coach
+            </p>
+            <p> </p>
+            <p></em>
+            <p>
+              <p class=></p>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="cards_item">
+      <div class="card" tabindex="0">
+        <div class="card_image"><img src="images\woman-white-uniform-black-belt-looking-camera.jpg"></div>
+        <div class="card_content">
+          <h2 class="card_title">Sarah Nova</h2>
+          <div class="card_text">
+            <p> She is a 5th ranker in Dan karate. 
+            <p></p>
+            <p>: </strong> </p>
+          </div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#">Web design</a></li>
+                            <li><a href="#">Development</a></li>
+                            <li><a href="#">Hosting</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>About</h3>
+                        <ul>
+                            <li><a href="#">Contacts</a></li>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">FAQs</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 item text">
+                        <h3>Tiger martial arts</h3>
+                        <p>We are well recognized and professional institue that specials in equipping other with valuable self-defence skill with the help of our well trained and professional instructors.</p>
+                    </div>
+                    <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+                </div>
+                <p class="copyright">Tiger martial arts © 2018</p>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
+
+        <!-- JAVASCRIPT FILES -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/countdown.js"></script>
+        <script src="js/init.js"></script>
+
+    </body>
+</html>

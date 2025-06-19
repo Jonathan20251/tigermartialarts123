@@ -1,0 +1,190 @@
+
+}
+ul{
+   
+    display:flex;
+    padding-top: 20px;
+
+    justify-content: space-around;
+   
+}
+#text11{
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 70px;
+
+}
+#text22{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+   
+}
+.box1{
+    height: 150px;
+    width: 150px;
+   
+    background-image:url("https://www.chinadailyhk.com/upload/main/image/2024/09/05/7cb583abc4b7338517edb75c52f50561.jpg");
+    background-size: cover;
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Slab', serif;
+  background-color: #f9f9f9;
+  color: #222;
+}
+
+header {
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  border-bottom: 5px solid #2e8b57;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+h2 {
+  color: #2e8b57;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 10px;
+  margin-top: 40px;
+}
+
+.bio {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.bio img {
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.bio p {
+  flex: 1;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.classes ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.classes li {
+  background-color: #e6f2ea;
+  padding: 20px;
+  border-left: 6px solid #2e8b57;
+  font-weight: bold;
+  min-width: 180px;
+  white-space: nowrap;
+}
+
+.contact {
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 20px;
+  margin-top: 60px;
+  text-align: center;
+}
+
+.contact a {
+  color: #2e8b57;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .bio {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .bio img {
+    margin: 0 auto;
+  }
+
+  .classes ul {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Martial Arts Instructor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  Master Lee's Martial Arts Academy
+</header>
+
+<div class="container">
+  <section class="bio">
+    <img src="instructor.jpg" alt="Instructor Photo">
+    <p>Master Lee is a 5th-degree black belt with over 20 years of experience in multiple disciplines including Kung Fu, Taekwondo, and Self-defense. He is passionate about building strength, discipline, and confidence in his students.</p>
+  </section>
+
+  <section class="classes">
+    <h2>Offered Classes</h2>
+    <ul>
+      <li>Kung Fu</li>
+      <li</li>
+      <li>Self-defense</li>
+      <li>Kung-fu</li>
+      <li</li>
+    </ul>
+  </section>
+
+  <section class="contact">
+    <h2>Contact & Registration</h2>
+    <p>Email: <a href="mailto:masterlee@dojo.com">Tiger@martial.com</a> | Phone: (555) 123-4567</p>
+  </section>
+</div>
+
+</body>
+</html>
+
+/* Instructor Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .instructor-section {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 0 20px;
+  }
+  
+  .instructor-section h2 {
+    text-align: center;
+    color: #2e8b57;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+  }
+  
+  .instructor-cards {
+    display: flex;
+    flex-w
+  
